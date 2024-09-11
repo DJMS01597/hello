@@ -7,4 +7,7 @@
 #include <math.h>
 #include<stdlib.h>
 
+int main()
 
+int year;
+int testYears = (2000, 1900, 2004, 2001, 2100);

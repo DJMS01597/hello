@@ -14,7 +14,7 @@ int main(){
 double agi;
 double tax;
 double numChildren;
-
+double reducedTax
 printf("Enter your Adjusted Gross Income:  ");
 scanf("%lf", &agi);
 

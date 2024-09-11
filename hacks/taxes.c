@@ -19,7 +19,7 @@ printf("Enter your Adjusted Gross Income:  ");
 scanf("%lf", &agi);
 
 printf("Enter the number of children:  ");
-scanf("%lf", numChildren);
+scanf("%lf", &numChildren);
 
 if(agi <= 19,900){
 tax = 0.10 * agi;

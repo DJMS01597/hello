@@ -14,7 +14,7 @@ int main(){
 double agi;
 double tax;
 double numChildren;
-double reducedTax
+double reducedTax;
 printf("Enter your Adjusted Gross Income:  ");
 scanf("%lf", &agi);
 
@@ -42,7 +42,7 @@ reducedTax = (numChildren * 2000) - tax;
   tax = 0;
 }
 
-Printf("Your total tax is: $%.2f\n", tax);
+printf("Your total tax is: $%.2f\n", tax);
 
 return 0;
 

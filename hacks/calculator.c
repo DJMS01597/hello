@@ -3,64 +3,46 @@
  * Date: 9/10/2024
  *
  */
+#include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
 
-int main(){
+int main(int argc, char **argv) {
 
-double a;
-double b;
-double result;
-double option;
+  double a, b, result;
+  int choice;
 
-printf("Enter two numbers: ");
-scanf("%lf %lf", &a, &b);
+  printf("Enter operand a: ");
+  scanf("%lf", &a);
 
-printf("Choose an operation:\n");
-printf("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Logarithm (base a)\n")
+  printf("Enter operand b: ");
+  scanf("%lf", &b);
 
-scanf("%d", &option);
+  printf("Enter operation:\n");
+  printf("(1) Addition\n");
+  printf("(2) Subtraction\n");
+  printf("(3) Multiplication\n");
+  printf("(4) Division\n");
+  printf("(5) Minimum\n");
+  printf("(6) log_a(b)\n");
+  scanf("%d", &choice);
 
-switch(option) {
-  case 1:
-result = a + b;
-printf("Result: %.2f\n", result);
-break;
+  if(choice == 1) {
+    printf("%f", a + b);
+  } else if(choice == 2) {
+    result = a - b;
+    printf("%f", result);
+  } else if(choice == 3) {
+    //TODO: handle this case (multiplication)
+  } else if(choice == 4) {
+    //TODO: handle this case (division)
+  } else if(choice == 5) {
+    //TODO: handle this case (minimum)
+  } else if(choice == 6) {
+    //TODO: handle this case (log_a(b))
+  } else {
+    printf("Please input a valid operator next time");
+  }
 
-case 2:
-result = a - b;
-printf("Result: %.2f\n", result);
-break;
-
-case 3:
-result = a * b;
-printf("Result: %.2f\n", result);
-break;
-
-case 4:
-if (b != 0)
-result = a / b;
-printf("Result: %.2f\n", result);
- break;
-
+  return 0;
 }
-case 5:
-(a > 0 && b > 0){
-result = log(b) / log(a);
-printf("Result: %.2f\n", result);
-}
-
-return 0;
-
-}
-
-}
-
-
-
-
-
-
-
-
-

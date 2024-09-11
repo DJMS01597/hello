@@ -24,8 +24,9 @@ int main() {
     int testYears[] = {2000, 1900, 2004, 2001, 2100};
 
     for (int i = 0; i < 5; i++) {
-        year = testYears[i];
-        if (isLeapYear(year)) {
+year = testYears[i];
+
+ if (isLeapYear(year)) {
             printf("%d is a leap year.\n", year);
         } else {
             printf("%d is not a leap year.\n", year);

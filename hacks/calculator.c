@@ -38,33 +38,32 @@ printf("Result: %.2f\n", result);
 break;
 
 case 4:
-if (b != 0) {
+if (b != 0)
 result = a / b;
 printf("Result: %.2f\n", result);
-break;
+ break;
+
+
 default:
 printf("ERROR: Unknown value!");
 break;
-else{ printf("ERROR: Division by zero!\n");
-}
-break;
+{else printf("ERROR: Division by zero!\n");
 
+break;
+}
 case 5:
-if (a > 0 && b > 0) {
+if {(a > 0 && b > 0)
 result = log(b) / log(a);
 printf("Result: %.2f\n", result);
-}else{
+else
 printf("ERROR: Both numbers must be positive for logarithms!\n");
-}
+
 break;
 
 default:
 printf("ERROR: Invalid operation!\n");
-}
+
 return 0;
-}
-
-}
 
 
 
@@ -78,8 +77,3 @@ return 0;
 
 
 
-
-
-
-
-}

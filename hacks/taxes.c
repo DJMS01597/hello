@@ -15,11 +15,11 @@ double agi;
 double tax;
 double numChildren;
 
-printf("Enter your Adjusted Gross Income:  ")
+printf("Enter your Adjusted Gross Income:  ");
 scanf("%lf", &agi);
 
 printf("Enter the number of children:  ");
-scanf("%lf", numChildren)
+scanf("%lf", numChildren);
 
 if(agi <= 19,900){
 tax = 0.10 * agi;
@@ -36,26 +36,15 @@ tax = 67206 + 0.32 * (agi - 329850);
 tax = 95686 + 0.35 * (agi - 418850);
 }
 
+reducedTax = (numChildren * 2000) - tax;
 
+  if(tax < 0){
+  tax = 0;
+}
 
+Printf("Your total tax is: $%.2f\n", tax);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+return 0;
 
 
 }

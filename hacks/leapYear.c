@@ -4,8 +4,9 @@
  *
  */
 #include <stdio.h>
+#include <math.h>
+#include<stdlib.h>
 
-// Function to check leap year
 int isLeapYear(int year) {
     if (year % 4 == 0) {
         if (year % 100 == 0) {

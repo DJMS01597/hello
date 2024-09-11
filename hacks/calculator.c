@@ -52,22 +52,22 @@ break;
 break;
 }
 case 5:
-if {(a > 0 && b > 0)
+if (a > 0 && b > 0){
 result = log(b) / log(a);
 printf("Result: %.2f\n", result);
-else
+}else{
 printf("ERROR: Both numbers must be positive for logarithms!\n");
 
 break;
-
+}
 default:
 printf("ERROR: Invalid operation!\n");
 
 return 0;
 
+}
 
-
-
+}
 
 
 

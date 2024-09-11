@@ -11,7 +11,7 @@ int main()
 
 int year;
 int testYears() = (2000, 1900, 2004, 2001, 2100);
-
+double isLeapYear;
 if int(int i = 0; i < 5; ){
 year = testYears(i)
 }

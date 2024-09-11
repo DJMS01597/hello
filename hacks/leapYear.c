@@ -10,6 +10,9 @@
 int main()
 
 int year;
-int testYears = (2000, 1900, 2004, 2001, 2100);
+int testYears() = (2000, 1900, 2004, 2001, 2100);
 
-if int(int i = 0; i < 5; )
+if int(int i = 0; i < 5; ){
+year = testYears(i)
+}
+
